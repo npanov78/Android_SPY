@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  server:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - server_data:/app
+
+volumes:
+  server_data:

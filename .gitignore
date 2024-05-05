@@ -1,0 +1,4 @@
+android_service/.idea
+android_service/.gitignore
+server/venv
+.idea
